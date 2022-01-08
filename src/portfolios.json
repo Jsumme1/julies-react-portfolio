@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Barge Nomination CCI",
     "description": "A functional web app that allows multiple users to enter nominations into a terminal",
-    "image": "src/assets/portfoliopics/BargeNomin.JPG",
+    "image": "./assets/portfoliopics/BargeNomin.JPG",
     "github": "https://github.com/Jsumme1/barge-nomination",
     "deployed": "https://barge-nomination-cci.herokuapp.com"
   },

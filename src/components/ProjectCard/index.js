@@ -3,8 +3,8 @@ import "./style.css";
 import portfolios from "../../portfolios.json";
 
 // Props are passed through our functional component.
-function PortfolioCard(props) {
-  const [portfolioList, setPortfolioList] = useState(portfolios);
+function ProjectCard(props) {
+  // const [portfolioList, setPortfolioList] = useState(portfolios);
   
   return (
     <div className="card">
@@ -31,4 +31,4 @@ function PortfolioCard(props) {
   );
 }
 
-export default PortfolioCard;
+export default ProjectCard;
