@@ -2,8 +2,8 @@
   {
     "id": 1,
     "name": "Barge Nomination CCI",
-    "description": "A functional web app that allows multiple users to enter nominations into a terminal",
-    "image": "./assets/portfoliopics/BargeNomin.JPG",
+    "description": "A functional web app that allows multiple users to enter nominations into a terminal interface",
+    "image": "./assets/images/TXStars.JPG",
     "github": "https://github.com/Jsumme1/barge-nomination",
     "deployed": "https://barge-nomination-cci.herokuapp.com"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "name": "Texas Stargazing",
     "description": "A functional web app that allows users to find information on Dark Sky Parks in Texas and retrieve the current moonphase",
-    "image": "src/assets/portfoliopics/BargeNomin.JPG",
+    "image": "./assets/portfoliopics/TXStars.JPG",
     "github": "https://github.com/rprice000/texas-stargazing",
     "deployed": "https://rprice000.github.io/texas-stargazing/"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "name": "Barge Nomination CCI",
     "description": "A functional web app that allows multiple users to enter nominations into a terminal",
-    "image": "src/assets/portfoliopics/BargeNomin.JPG",
+    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
     "github": "https://github.com/Jsumme1/barge-nomination",
     "deployed": "https://barge-nomination-cci.herokuapp.com"
   },

@@ -1,10 +1,8 @@
 import React from "react";
 import "./style.css";
-import portfolios from "../../portfolios.json";
 
 // Props are passed through our functional component.
 function ProjectCard(props) {
-  // const [portfolioList, setPortfolioList] = useState(portfolios);
   
   return (
     <div className="card">
