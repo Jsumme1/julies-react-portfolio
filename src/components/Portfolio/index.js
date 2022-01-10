@@ -9,7 +9,8 @@ import Image2 from "../../assets/images/2.JPG";
       name: "Barge Nomination CCI",
       description:
         "A functional web app that allows multiple users to enter nominations into a terminal interface",
-      image: "Image1",
+      image:
+        "https://github.com/Jsumme1/julies-react-portfolio/blob/main/src/assets/images/1.JPG?raw=true",
       github: "https://github.com/Jsumme1/barge-nomination",
       deployed: "https://barge-nomination-cci.herokuapp.com",
     },
@@ -18,7 +19,8 @@ import Image2 from "../../assets/images/2.JPG";
       name: "Texas Stargazing",
       description:
         "A functional web app that allows users to find information on Dark Sky Parks in Texas and retrieve the current moonphase",
-      // image: "image2",
+      image:
+        "https://github.com/Jsumme1/julies-react-portfolio/blob/main/src/assets/images/2.JPG?raw=true",
       github: "https://github.com/rprice000/texas-stargazing",
       deployed: "https://rprice000.github.io/texas-stargazing/",
     },
@@ -27,7 +29,8 @@ import Image2 from "../../assets/images/2.JPG";
       name: "You Can Blog It",
       description:
         "A functional web app that allows users to create and comment on blog posts",
-      // image: "./assets/images/YouCanBlogIt.JPG",
+      image:
+        "https://github.com/Jsumme1/julies-react-portfolio/blob/main/src/assets/images/3.JPG?raw=true",
       github: "https://github.com/Jsumme1/you-can-blogit",
       deployed: "https://you-can-blogit.herokuapp.com/",
     },
@@ -35,7 +38,8 @@ import Image2 from "../../assets/images/2.JPG";
       id: 4,
       name: "Note Taker",
       description: "A functional web app that allows a to enter and edit notes",
-      // image: "./assets/images/NoteTaker.JPG",
+      image:
+        "https://github.com/Jsumme1/julies-react-portfolio/blob/main/src/assets/images/4.JPG?raw=true",
       github: "https://github.com/Jsumme1/Note-Taker",
       deployed: "https://warm-sands-24704.herokuapp.com/",
     },
@@ -44,7 +48,8 @@ import Image2 from "../../assets/images/2.JPG";
       name: "Budget Fun",
       description:
         "A functional web app that allows a user to keep track of financial transactions even when on unstable network connections",
-      // image: "./assets/images/BudgetFun.JPG",
+      image:
+        "https://github.com/Jsumme1/julies-react-portfolio/blob/main/src/assets/images/5.JPG?raw=true",
       github: "https://github.com/Jsumme1/budget-fun",
       deployed: "https://shielded-spire-62008.herokuapp.com/",
     },
@@ -53,7 +58,8 @@ import Image2 from "../../assets/images/2.JPG";
       name: "Random Password Generator",
       description:
         "A website that allows the user to enter desired options (symbols, numbers, letters, etc) to generate a random password using JavaScript",
-      // image: "./assets/images/RandomPwd.JPG",
+      image:
+        "https://github.com/Jsumme1/julies-react-portfolio/blob/main/src/assets/images/6.JPG?raw=true",
       github: "https://github.com/Jsumme1/Random-Password-Generator",
       deployed: "https://jsumme1.github.io/Random-Password-Generator/",
     },
