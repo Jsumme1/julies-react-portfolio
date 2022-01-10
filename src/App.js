@@ -5,6 +5,7 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import ContactForm from "./components/Contact";
 import Resume from "./components/Resume";
+import Footer from "./components/Footer";
 
 function App() {
   
@@ -22,6 +23,7 @@ function App() {
           <Route path="about" element={<About />} />
         </Routes>
       </main>
+      <Footer />
     </div>
   );
 }
