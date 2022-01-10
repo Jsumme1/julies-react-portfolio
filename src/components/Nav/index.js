@@ -9,7 +9,7 @@ function Nav() {
       <Link to="/about">About</Link>
       <Link to="/portfolio">Portfolio</Link>
       <Link to="/contact">Contact</Link>
-      <a href = "./JCS 2021.doc">Resume</a>
+      <Link to="/resume">Resume</Link>
     </div>
   );
 }

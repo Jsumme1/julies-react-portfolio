@@ -5,11 +5,13 @@ import "./style.css";
 function ProjectCard(props) {
   
   return (
+  
     <div className="card">
       <div className="img-container">
         <img alt={props.name} src={props.image} />
       </div>
       <div className="content">
+        <div>
         <ul>
           <li>
             <strong>Project Name:</strong> {props.name}
@@ -25,7 +27,9 @@ function ProjectCard(props) {
           </li>
         </ul>
       </div>
+      </div>
     </div>
+    
   );
 }
 

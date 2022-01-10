@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import ProjectCard from "../ProjectCard";
-import Image1 from "../../assets/images/1.JPG";
-import Image2 from "../../assets/images/2.JPG";
+import Wrapper from "../Wrapper";
 
   const portfolios = [
     {
@@ -72,23 +71,25 @@ function Portfolio(props) {
 
 
   return (
-    <div className="wrapper">
-      {props.childern}
-      <h1 className="title">Portfolio List</h1>
-      {/* Map through 'portfolioList' and render a 'ProjectCard' for each project */}
-      {portfolioList.map((project) => (
-        <ProjectCard
-          id={project.id}
-          key={project.id}
-          name={project.name}
-          image={project.image}
-          description={project.description}
-          github={project.github}
-          deployed={project.deployed}
-        />
-      ))}
-      {/* <ProjectCard/> */}
-    </div>
+    <Wrapper>
+      <div className="wrapper">
+        {props.childern}
+        <h1 className="title">Portfolio List</h1>
+        {/* Map through 'portfolioList' and render a 'ProjectCard' for each project */}
+        {portfolioList.map((project) => (
+          <ProjectCard
+            id={project.id}
+            key={project.id}
+            name={project.name}
+            image={project.image}
+            description={project.description}
+            github={project.github}
+            deployed={project.deployed}
+          />
+        ))}
+        {/* <ProjectCard/> */}
+      </div>
+    </Wrapper>
   );
 }
 
