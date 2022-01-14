@@ -6,7 +6,7 @@ function Resume() {
     <Wrapper>
       <section className="my-5">
         <h1 id="about">Resume</h1>
-        <h3 id="about">Scroll Down for downloadable PDF Full Style Resume</h3>
+        <h3>Scroll Down for downloadable PDF Full Style Resume</h3>
               <div className="my-2">
         <p>
               
