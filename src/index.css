@@ -49,7 +49,8 @@ body {
   background: var(--dark);
   color: var(--light);
   font-family: 'Poiret One', cursive;
-
+  background-image: url("https://media.istockphoto.com/photos/dark-night-and-stars-reflecting-in-maroon-lake-picture-id1299818587?b=1&k=20&m=1299818587&s=170667a&w=0&h=4qNkumvj73rB1ArCSVmbi9xw5yhpk_DICOeQqgtOTs8=");
+  background-repeat: no-repeat;
 }
 
 h1,

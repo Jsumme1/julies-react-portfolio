@@ -5,7 +5,7 @@ import "./style.css";
 function Foot() {
   return (
     <div class="container">
-      <div class="topnav">
+      <div class="footernav">
     <footer>
       <Link to="/about">About</Link>
       <Link to="/portfolio">Portfolio</Link>
