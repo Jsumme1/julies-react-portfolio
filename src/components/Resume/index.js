@@ -5,8 +5,8 @@ function Resume() {
   return (
     <Wrapper>
       <section className="my-5">
-        <h1 id="about">Resume</h1>
-        <h3>Scroll Down for downloadable PDF Full Style Resume</h3>
+        <h2 id="about">Resume - Coding Applications</h2>
+        <h6>Scroll Down for downloadable PDF Full Style Resume</h6>
               <div className="my-2">
         <p>
               
@@ -36,8 +36,9 @@ function Resume() {
             <li>MERN</li>
         </ul>
     </p>
-        </div>
-          <a href = "./JCS 2021.doc">Resume</a>
+       
+          <a href = "./JCS 2021.doc" >Click to download resume</a>
+          </div>
       </section>
     </Wrapper>
   );

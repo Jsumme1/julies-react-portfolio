@@ -51,6 +51,7 @@ body {
   font-family: 'Roboto', sans-serif;
   background-image: url("https://media.istockphoto.com/photos/dark-night-and-stars-reflecting-in-maroon-lake-picture-id1299818587?b=1&k=20&m=1299818587&s=170667a&w=0&h=4qNkumvj73rB1ArCSVmbi9xw5yhpk_DICOeQqgtOTs8=");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1,
@@ -134,8 +135,26 @@ button[disabled] {
 }
 
 img {
-  max-width: 100%;
+  max-width: 500%;
+  align-self:  center;
+  border-radius: 5px;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.rounded-corners {
+  border-radius: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
 
 span[role="img"] {
   cursor: default;
@@ -269,8 +288,9 @@ button {
 }
 
 a {
-	border-radius: 5px;
-	color: var(--primary);
+	font-size: 25px;
+  border-radius: 5px;
+	color: black;
 	font-weight: 600;
 	padding: 2px 4px;
 	margin-left: -2px;

@@ -1,20 +1,39 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./style.css";
 
 function Foot() {
   return (
     <div class="container">
-      <div class="footernav">
-    <footer>
-      <Link to="/about">About</Link>
-      <Link to="/portfolio">Portfolio</Link>
-      <Link to="/contact">Contact</Link>
-      <Link to="/resume">Resume</Link>
-    </footer>
+      <div class="footer">
+        <footer>
+          <div class="footerlinks">
+            <ul>
+              <li>
+                <a href="https://github.com/Jsumme1">GitHub</a>
+              </li>
+              <li>
+                <a href="www.linkedin.com/in/julie-summers-velazquez-2512671">
+                  linkedin
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/julie.s.velazquez/">
+                  FaceBook
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <li>Julie Summers</li>
+          </div>
+          <div class="copyright">
+            <p>Copyright 2022</p>
+          </div>
+        </footer>
+      </div>
     </div>
-  </div>
   );
 }
 
 export default Foot;
+

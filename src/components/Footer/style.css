@@ -6,14 +6,20 @@
 }
 
 
-.footernav {
-  overflow: hidden;
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background-color: #333;
+  background-image: linear-gradient(#05619e, darkblue);
+  color: white;
+  text-align: center;
 }
 
 
-.footernav a {
-   font-family: 'Roboto', sans-serif;
+.footer a {
+  font-family: 'Roboto', sans-serif;
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -22,7 +28,29 @@
   font-size: 17px;
 }
 
-.footernav a:hover {
-  background-color: #ddd;
-  color: black;
+.footerLinks {
+   text-align: center;
+}
+.footerLinks ul {
+	padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+.footerLinks li {
+	display: inline;
+}
+.footerLinks a {
+	color: #d9d9d9;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.copyright p {
+	margin: 0;
+	color: #b3b3b3;
+	font-size: 11px;
 }
