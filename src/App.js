@@ -21,6 +21,7 @@ function App() {
           <Route path="/contact" element={<ContactForm />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/about" element={<About />} />
+          <Route path="/julies-react-portfolio" element={<About />} />
         </Routes>
       </main>
       <Footer />

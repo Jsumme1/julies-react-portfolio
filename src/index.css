@@ -318,3 +318,8 @@ a {
 .navActive {
   color: var(--secondary);
 }
+
+.resume {
+  font-size: 40px;
+  color: navy;
+}
