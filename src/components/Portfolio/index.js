@@ -74,7 +74,6 @@ function Portfolio(props) {
     <Wrapper>
       <div className="wrapper">
         {props.childern}
-        <h1 className="title">Portfolio List</h1>
         {/* Map through 'portfolioList' and render a 'ProjectCard' for each project */}
         {portfolioList.map((project) => (
           <ProjectCard

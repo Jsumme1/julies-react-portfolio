@@ -14,10 +14,10 @@ function ProjectCard(props) {
         <div>
         <ul>
           <li>
-            <strong>Project Name:</strong> {props.name}
+            <p className="title">Project Name:</p><p className="project">{props.name}</p>
           </li>
           <li>
-            <strong>Description:</strong> {props.description}
+            <p className="title">Description:</p> {props.description}
           </li>
           <li>
             <a href= {props.github}>GitHub Link</a>

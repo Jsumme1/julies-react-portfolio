@@ -8,6 +8,7 @@ function Foot() {
         <footer>
           <div class="footerlinks">
             <ul>
+              <li align="left">Social Media Links:</li>
               <li>
                 <a href="https://github.com/Jsumme1">GitHub</a>
               </li>
@@ -23,11 +24,11 @@ function Foot() {
               </li>
             </ul>
           </div>
-          <div>
+          <div class="name">
             <li>Julie Summers</li>
           </div>
           <div class="copyright">
-            <p>Copyright 2022</p>
+            Copyright 2022
           </div>
         </footer>
       </div>

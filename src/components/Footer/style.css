@@ -15,6 +15,7 @@
   background-image: linear-gradient(#05619e, darkblue);
   color: white;
   text-align: center;
+  margin-top: 100px;
 }
 
 
@@ -45,12 +46,16 @@
 	font-size: 13px;
 }
 
-.copyright {
-    text-align: center;
+.name{
+  padding-right: 1%;
+  text-align: right;
 }
 
-.copyright p {
-	margin: 0;
+.copyright {
+  text-align:right;
+  margin: 0;
 	color: #b3b3b3;
 	font-size: 11px;
+  bottom: 0px;
+  padding-right: 1%;
 }
