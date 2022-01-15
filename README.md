@@ -15,7 +15,7 @@
  To use this app on your local machine, you will need to run npm init and open your browser to localhost:3001 otherwise it is a fully deployed app in gitHub
 
  ## Deployed 
-
+https://jsumme1.github.io/julies-react-portfolio/
 
 # Usage
 AS AN employer looking for candidates with experience building single-page applications

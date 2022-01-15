@@ -51,7 +51,7 @@ function About() {
             <img
               src={coverAvatar}
               className="my-2 center"
-              style={{ width: "50%", height: "50%" }}
+              style={{ width: "50%" }}
               alt="thinking emoji"
             />
           </div>

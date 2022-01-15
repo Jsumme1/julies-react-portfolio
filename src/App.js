@@ -16,11 +16,11 @@ function App() {
       <main>
         <Routes>
           {/* home path renders About component*/}
-          <Route path="/" element={<About />} />
-          <Route path="portfolio" element={<Portfolio />} />
-          <Route path="contact" element={<ContactForm />} />
-          <Route path="resume" element={<Resume />} />
-          <Route path="about" element={<About />} />
+          <Route exact path="/" element={<About />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<ContactForm />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </main>
       <Footer />
