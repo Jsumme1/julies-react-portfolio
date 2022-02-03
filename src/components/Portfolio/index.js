@@ -25,13 +25,13 @@ import Wrapper from "../Wrapper";
     },
     {
       id: 3,
-      name: "You Can Blog It",
+      name: "Share Your Story",
       description:
-        "A functional web app that allows users to create and comment on blog posts",
+        "A pwa web app that allows victims of medical malpractice to create and comment on posts",
       image:
         "https://github.com/Jsumme1/julies-react-portfolio/blob/main/src/assets/images/3.JPG?raw=true",
-      github: "https://github.com/Jsumme1/you-can-blogit",
-      deployed: "https://you-can-blogit.herokuapp.com/",
+      github: "https://github.com/JeffGoji/share-your-story",
+      deployed: "https://share-your-story-texas.herokuapp.com/",
     },
     {
       id: 4,
@@ -54,13 +54,13 @@ import Wrapper from "../Wrapper";
     },
     {
       id: 6,
-      name: "Random Password Generator",
+      name: "You Can Blog It",
       description:
-        "A website that allows the user to enter desired options (symbols, numbers, letters, etc) to generate a random password using JavaScript",
+        "A functional web app that allows users to create and comment on blog posts",
       image:
-        "https://github.com/Jsumme1/julies-react-portfolio/blob/main/src/assets/images/6.JPG?raw=true",
-      github: "https://github.com/Jsumme1/Random-Password-Generator",
-      deployed: "https://jsumme1.github.io/Random-Password-Generator/",
+        "https://github.com/Jsumme1/julies-react-portfolio/blob/main/src/assets/images/3.JPG?raw=true",
+      github: "https://github.com/Jsumme1/you-can-blogit",
+      deployed: "https://you-can-blogit.herokuapp.com/",
     },
   ];
 
