@@ -41,7 +41,9 @@ function ContactForm() {
   return (
     <Wrapper>
       <section>
-        <h1 data-testid="h1tag">Contact me</h1>
+        <h1 data-testid="h1tag">Contact me:</h1>  
+        <h3>julie.summers2000@gmail.com</h3>
+        <br></br>
         <form id="contact-form" onSubmit={handleSubmit}>
           <div>
             <label htmlFor="name">Name:</label>

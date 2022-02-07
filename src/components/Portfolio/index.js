@@ -10,6 +10,7 @@ import Wrapper from "../Wrapper";
         "A functional web app that allows multiple users to enter nominations into a terminal interface",
       image:
         "https://github.com/Jsumme1/julies-react-portfolio/blob/main/src/assets/images/1.JPG?raw=true",
+      tools: "JavaScript, MySQL2, Node, Express, Bcrypt",
       github: "https://github.com/Jsumme1/barge-nomination",
       deployed: "https://barge-nomination-cci.herokuapp.com",
     },
@@ -20,6 +21,7 @@ import Wrapper from "../Wrapper";
         "A functional web app that allows users to find information on Dark Sky Parks in Texas and retrieve the current moonphase",
       image:
         "https://github.com/Jsumme1/julies-react-portfolio/blob/main/src/assets/images/2.JPG?raw=true",
+      tools: "Server side API calls, JavaScript, HTML, Bulma",
       github: "https://github.com/rprice000/texas-stargazing",
       deployed: "https://rprice000.github.io/texas-stargazing/",
     },
@@ -30,6 +32,7 @@ import Wrapper from "../Wrapper";
         "A pwa web app that allows victims of medical malpractice to create and comment on posts",
       image:
         "https://github.com/Jsumme1/julies-react-portfolio/blob/main/src/assets/images/3.JPG?raw=true",
+      tools: "MERN, HTML, CSS, Heroku",
       github: "https://github.com/JeffGoji/share-your-story",
       deployed: "https://share-your-story-texas.herokuapp.com/",
     },
@@ -39,6 +42,7 @@ import Wrapper from "../Wrapper";
       description: "A functional web app that allows a to enter and edit notes",
       image:
         "https://github.com/Jsumme1/julies-react-portfolio/blob/main/src/assets/images/4.JPG?raw=true",
+      tools: "javaScript, html, Expressjs, jsNode and UUID",
       github: "https://github.com/Jsumme1/Note-Taker",
       deployed: "https://warm-sands-24704.herokuapp.com/",
     },
@@ -49,6 +53,8 @@ import Wrapper from "../Wrapper";
         "A functional web app that allows a user to keep track of financial transactions even when on unstable network connections",
       image:
         "https://github.com/Jsumme1/julies-react-portfolio/blob/main/src/assets/images/5.JPG?raw=true",
+      tools:
+        "javaScript and npm packages (express), MongoDb, IndexDb and Service Workers",
       github: "https://github.com/Jsumme1/budget-fun",
       deployed: "https://shielded-spire-62008.herokuapp.com/",
     },
@@ -59,6 +65,8 @@ import Wrapper from "../Wrapper";
         "A functional web app that allows users to create and comment on blog posts",
       image:
         "https://github.com/Jsumme1/julies-react-portfolio/blob/main/src/assets/images/3.JPG?raw=true",
+      tools:
+        "javaScript, jsNode, express (and its various children) dotenv, MySQL2, Sequelize, Bcrypt, Handlebars, HTML, CSS. Heroku and JAWSd",
       github: "https://github.com/Jsumme1/you-can-blogit",
       deployed: "https://you-can-blogit.herokuapp.com/",
     },
@@ -82,6 +90,7 @@ function Portfolio(props) {
             name={project.name}
             image={project.image}
             description={project.description}
+            tools={project.tools}
             github={project.github}
             deployed={project.deployed}
           />

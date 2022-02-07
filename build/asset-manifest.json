@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/julies-react-portfolio/static/css/main.58d1292d.css",
-    "main.js": "/julies-react-portfolio/static/js/main.a08c4616.js",
+    "main.css": "/julies-react-portfolio/static/css/main.884764c4.css",
+    "main.js": "/julies-react-portfolio/static/js/main.317266d6.js",
     "static/js/787.78b75e27.chunk.js": "/julies-react-portfolio/static/js/787.78b75e27.chunk.js",
     "static/media/avatar.png": "/julies-react-portfolio/static/media/avatar.e40f2393b6aa34165593.png",
     "static/media/cover-image.jpeg": "/julies-react-portfolio/static/media/cover-image.73a30592162c7bcab8e4.jpeg",
     "index.html": "/julies-react-portfolio/index.html",
-    "main.58d1292d.css.map": "/julies-react-portfolio/static/css/main.58d1292d.css.map",
-    "main.a08c4616.js.map": "/julies-react-portfolio/static/js/main.a08c4616.js.map",
+    "main.884764c4.css.map": "/julies-react-portfolio/static/css/main.884764c4.css.map",
+    "main.317266d6.js.map": "/julies-react-portfolio/static/js/main.317266d6.js.map",
     "787.78b75e27.chunk.js.map": "/julies-react-portfolio/static/js/787.78b75e27.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.58d1292d.css",
-    "static/js/main.a08c4616.js"
+    "static/css/main.884764c4.css",
+    "static/js/main.317266d6.js"
   ]
 }
