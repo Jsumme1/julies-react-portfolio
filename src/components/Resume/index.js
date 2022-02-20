@@ -1,12 +1,14 @@
 import React from "react";
 import Wrapper from "../Wrapper";
 
+
+
 function Resume() {
   return (
     <Wrapper>
       <section className="my-5">
         <h2 id="about">Resume - Coding Applications</h2>
-        <h6>Scroll Down for downloadable PDF Full Style Resume</h6>
+        <h6>Scroll Down for downloadable Full Style Resume</h6>
         <div className="my-2">
           <p>
             Front End technologies, command-line fundamentals and APIs
@@ -39,7 +41,7 @@ function Resume() {
             </ul>
           </p>
 
-          <a href="./JCS 2021.doc">
+          <a href="./JCS Technical.doc" download>
             <p className="resume">Click to download resume</p>
           </a>
         </div>

@@ -6,7 +6,7 @@ function Foot() {
     <div class="container">
       <div class="footer">
         <footer>
-          <div class="footerlinks">
+          {/* <div class="footerlinks">
             <ul>
               <li align="left">Social Media Links:</li>
               <li>
@@ -23,7 +23,7 @@ function Foot() {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
           <div class="name">
             <li>Julie Summers</li>
           </div>
