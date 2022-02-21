@@ -7,7 +7,7 @@ function Resume() {
   return (
     <Wrapper>
       <section className="my-5">
-        <h2 id="about">Resume - Coding Applications</h2>
+        <h2 id="about">Skills - Coding Applications</h2>
         <h6>Scroll Down for downloadable Full Style Resume</h6>
         <div className="my-2">
           <p>
@@ -41,9 +41,12 @@ function Resume() {
             </ul>
           </p>
 
-          <a href="../../JCS_Technical.doc">
+          <a
+            href="https://github.com/Jsumme1/julies-react-portfolio/blob/main/src/assets/images/JCS%20Technical%20Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <p className="resume">Click to download resume</p>
-            
           </a>
         </div>
       </section>
