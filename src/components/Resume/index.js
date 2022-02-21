@@ -41,8 +41,9 @@ function Resume() {
             </ul>
           </p>
 
-          <a href="./JCS Technical.doc" download>
+          <a href="../../JCS_Technical.doc">
             <p className="resume">Click to download resume</p>
+            
           </a>
         </div>
       </section>
